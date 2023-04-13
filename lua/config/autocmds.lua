@@ -4,7 +4,7 @@
 
 -- https://github.com/LazyVim/LazyVim/discussions/269#discussioncomment-4981602
 vim.api.nvim_create_autocmd({ "FileType" }, {
-  pattern = { "markdown" },
+  pattern = { "markdown", "quarto" },
   callback = function()
     vim.wo.conceallevel = 0
   end,
