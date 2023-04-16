@@ -1,40 +1,6 @@
 return {
-  {
-    "catppuccin/nvim",
-    lazy = true,
-    priority = 1000,
-    name = "catppuccin",
-    opts = {
-      flavour = "macchiato",
-      background = {
-        light = "latte",
-        dark = "macchiato",
-      },
-      integrations = {
-        neotree = true,
-        cmp = true,
-        notify = true,
-        noice = true,
-        mason = true,
-        which_key = true,
-        telescope = true,
-      },
-    },
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
-  {
-    "nvim-lualine/lualine.nvim",
-    opts = {
-      options = {
-        theme = "catppuccin",
-      },
-    },
-  },
+  { import = "plugins.colorscheme.catppuccin" },
+
   {
     "f-person/auto-dark-mode.nvim",
     lazy = false,
