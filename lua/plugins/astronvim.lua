@@ -17,5 +17,5 @@ return {
   -- { import = "astrocommunity.editing-support.zen-mode-nvim" },
   -- { import = "astrocommunity.pack.rust" },
   -- { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.go" },
+  -- { import = "astrocommunity.pack.go" },
 }
