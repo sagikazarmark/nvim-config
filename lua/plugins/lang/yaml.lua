@@ -8,8 +8,10 @@ return {
         yamlls = {
           mason = false,
           settings = {
+            redhat = { telemetry = { enabled = false } },
             yaml = {
               format = {
+                enable = true,
                 bracketSpacing = false,
               },
             },
