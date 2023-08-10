@@ -1,5 +1,6 @@
 return {
   -- https://github.com/AstroNvim/astrocommunity/blob/53b36f9666a0b2e96448b6e990d12eb9c8a7297e/lua/astrocommunity/pack/docker/init.lua
+  -- https://github.com/LazyVim/LazyVim/blob/9264c54ae96d1d56f029ad9b561326c7b991c53b/lua/lazyvim/plugins/extras/lang/docker.lua
 
   {
     "nvim-treesitter/nvim-treesitter",
