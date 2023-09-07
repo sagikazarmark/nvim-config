@@ -22,7 +22,7 @@ return {
           nls.builtins.code_actions.impl,
           nls.builtins.diagnostics.golangci_lint,
           -- nls.builtins.diagnostics.gospel, -- TODO: install binary
-          nls.builtins.diagnostics.revive,
+          -- nls.builtins.diagnostics.revive, -- too noisy
           nls.builtins.diagnostics.staticcheck,
           nls.builtins.formatting.gofumpt,
           nls.builtins.formatting.goimports,
