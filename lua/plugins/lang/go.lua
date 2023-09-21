@@ -8,6 +8,10 @@ return {
       servers = {
         gopls = {
           mason = false,
+
+          settings = {
+            buildFlags = { "-tags=mage" },
+          },
         },
       },
     },
