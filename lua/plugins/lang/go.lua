@@ -10,7 +10,9 @@ return {
           mason = false,
 
           settings = {
-            buildFlags = { "-tags=mage" },
+            gopls = {
+              buildFlags = { "-tags=mage" },
+            },
           },
         },
       },
