@@ -2,6 +2,14 @@ return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
   "AstroNvim/AstroNvim",
+  {
+    "AstroNvim/astrocore",
+    lazy = false, -- disable lazy loading
+    priority = 10000, -- load AstroCore first
+    opts = {
+      -- set configuration options  as described below
+    },
+  },
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
