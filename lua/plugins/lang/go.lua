@@ -49,12 +49,12 @@ return {
     event = { "CmdlineEnter" },
     ft = { "go", "gomod" },
   },
-  {
-    "zbirenbaum/copilot.lua",
-    opts = {
-      filetypes = {
-        go = true,
-      },
-    },
-  },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   opts = {
+  --     filetypes = {
+  --       go = true,
+  --     },
+  --   },
+  -- },
 }
