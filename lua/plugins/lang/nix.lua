@@ -10,16 +10,16 @@ return {
       end
     end,
   },
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        rnix = {
-          mason = false,
-        },
-      },
-    },
-  },
+  -- {
+  --   "neovim/nvim-lspconfig",
+  --   opts = {
+  --     servers = {
+  --       rnix = {
+  --         mason = false,
+  --       },
+  --     },
+  --   },
+  -- },
   {
     "nvimtools/none-ls.nvim",
     opts = function(_, opts)
