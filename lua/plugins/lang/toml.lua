@@ -26,7 +26,7 @@ return {
       local nls = require("null-ls")
       if type(opts.sources) == "table" then
         vim.list_extend(opts.sources, {
-          nls.builtins.formatting.taplo,
+          -- nls.builtins.formatting.taplo,
         })
       end
     end,

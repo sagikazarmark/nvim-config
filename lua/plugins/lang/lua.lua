@@ -26,8 +26,8 @@ return {
       local nls = require("null-ls")
       if type(opts.sources) == "table" then
         vim.list_extend(opts.sources, {
-          nls.builtins.diagnostics.luacheck,
-          nls.builtins.formatting.stylua,
+          -- nls.builtins.diagnostics.luacheck,
+          -- nls.builtins.formatting.stylua,
         })
       end
     end,
