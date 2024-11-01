@@ -10,16 +10,16 @@ return {
       end
     end,
   },
-  -- {
-  --   "neovim/nvim-lspconfig",
-  --   opts = {
-  --     servers = {
-  --       lua_ls = {
-  --         mason = false,
-  --       },
-  --     },
-  --   },
-  -- },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        lua_ls = {
+          mason = false,
+        },
+      },
+    },
+  },
   {
     "nvimtools/none-ls.nvim",
     opts = function(_, opts)
@@ -27,7 +27,7 @@ return {
       if type(opts.sources) == "table" then
         vim.list_extend(opts.sources, {
           -- nls.builtins.diagnostics.luacheck,
-          -- nls.builtins.formatting.stylua,
+          nls.builtins.formatting.stylua,
         })
       end
     end,
