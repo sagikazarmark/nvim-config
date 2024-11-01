@@ -18,7 +18,7 @@ return {
     optional = true,
     opts = {
       formatters_by_ft = {
-        go = { "luacheck", "stylue" },
+        go = { "luacheck", "stylua" },
       },
     },
   },
