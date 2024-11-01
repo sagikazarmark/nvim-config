@@ -1,0 +1,5 @@
+config:
+  # https://github.com/DavidAnson/markdownlint/blob/main/doc/md054.md
+  MD034: false
+  # link-image-style:
+  #   autolink: false

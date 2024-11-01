@@ -1,6 +1,6 @@
 return {
-  { import = "lazyvim.plugins.editor.illuminate" },
-  { import = "lazyvim.plugins.editor.leap" },
-  { import = "lazyvim.plugins.editor.mini-move" },
-  { import = "lazyvim.plugins.editor.refactoring" },
+  { import = "lazyvim.plugins.extras.editor.illuminate" },
+  { import = "lazyvim.plugins.extras.editor.leap" },
+  { import = "lazyvim.plugins.extras.editor.mini-move" },
+  { import = "lazyvim.plugins.extras.editor.refactoring" },
 }
