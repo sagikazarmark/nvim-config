@@ -22,10 +22,10 @@ return {
     -- lazy = true,
     -- priority = 1000,
     opts = {
-      flavour = "macchiato",
+      flavour = "mocha",
       background = {
         light = "latte",
-        dark = "macchiato",
+        dark = "mocha",
       },
       integrations = {
         cmp = true,
